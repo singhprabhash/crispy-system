@@ -1,0 +1,20 @@
+.heroSection {
+    background-color: var(--app-color-hero);
+}
+
+/* .endCursor:after {
+    content: '|';
+    color: var(--app-white-700);
+}
+
+.endCursor.blinking:after {
+    content: "|";
+    color: var(--app-white-700);
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+} */

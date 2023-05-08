@@ -3,25 +3,41 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --app-color-hero: theme(colors.app-color-hero);
+
+  --app-black: theme(colors.app-black);
+  --app-black-200: theme(colors.app-black-200);
+  --app-black-300: theme(colors.app-black-300);
+  --app-black-600: theme(colors.app-black-600);
+
+  --app-white: theme(colors.app-white);
+  --app-white-700: theme(colors.app-white-700);
+  --app-white-800: theme(colors.app-white-800);
+  
+  --app-gold: theme(colors.app-black-300);
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@media (prefers-color-scheme: dark) {}
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+@layer components {
+  .end-cursor:after {
+    content: '|';
+    color: var(--app-white-700);
+  }
+  
+  .end-cursor.blinking:after {
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
 }
