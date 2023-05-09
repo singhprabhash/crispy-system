@@ -14,7 +14,7 @@
   --app-white-700: theme(colors.app-white-700);
   --app-white-800: theme(colors.app-white-800);
   
-  --app-gold: theme(colors.app-black-300);
+  --app-gold: theme(colors.app-gold);
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
@@ -40,4 +40,8 @@ body {
       opacity: 0;
     }
   }
+}
+
+.animator_bar {
+  box-shadow: 0.5px 1.0px 1.0px hsl(0deg 0% 0% / 0.49);
 }

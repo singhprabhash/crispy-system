@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
 }
 
 .nav {
     list-style: none;
-    display: flex;
 }
 
 .nav li {

@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     colors: {
       "app-color-hero": "#e2e8f0",
-      "app-black-200": "#414141",
+    "app-black-200": "#414141",
       "app-black-300": "#0e0e0ea6",
       "app-black-600": "#313131",
       "app-white-700": "#e2e8f0",
@@ -26,6 +26,10 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        'ultra-xs': {'max': '374px'},
+        'xs': {'min': '375px', 'max': '639px'}
+      }
     },
   },
   plugins: [],
