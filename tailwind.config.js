@@ -8,8 +8,9 @@ module.exports = {
   ],
   theme: {
     colors: {
+      "app-primary-black": "#282828",
       "app-color-hero": "#e2e8f0",
-    "app-black-200": "#414141",
+      "app-black-200": "#414141",
       "app-black-300": "#0e0e0ea6",
       "app-black-600": "#313131",
       "app-white-700": "#e2e8f0",
@@ -17,6 +18,7 @@ module.exports = {
       "app-black": "#000",
       "app-white": "#fff",
       "app-gold": "#c99c3b",
+      "muted": "#999",
       primary: {},
       secondary: {},
     },

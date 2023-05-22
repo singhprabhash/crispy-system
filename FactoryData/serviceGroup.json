@@ -1,0 +1,14 @@
+[
+    {
+        "for": "For Professionals",
+        "title": "Get Your tax filings done in a minute",
+        "tags": ["Tax Filing", "GST Returns", "Managing Finance"],
+        "bgColor": "bg-[#ffe979]"
+    },
+    {
+        "for": "For Business",
+        "title": "Get All Your Financing Done",
+        "tags": ["Tax Filing", "GST Returns", "Managing Finance", "Trademark Registration"],
+        "bgColor": "bg-[#b7f598]"
+    }
+]

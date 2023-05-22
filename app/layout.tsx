@@ -1,9 +1,9 @@
 import './globals.css'
-import { Rubik } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 
-const rubik = Rubik({ 
+const rubik = Open_Sans({ 
   subsets: ['latin'],
-  weight: ['300', '400', '700'],
+  weight: ['300', '400', '500', '600', '700', '800'],
   display: 'swap'
 })
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en antialiased">
       <body className={rubik.className}>
         {children}
       </body>

@@ -1,5 +1,5 @@
 .heroSection {
-    background-color: var(--app-color-hero);
+    background-color: var(--app-white);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -9,11 +9,9 @@
 .infoSection {
     margin: auto;
     position: absolute;
-    top: 87%;
-    left: calc(5% - 8px);
+    bottom: 0;
     color: #fff;
     background-color: var(--app-gold);
-    box-shadow: 1.4px 2.7px 2.7px hsl(0deg 0% 0% / 0.46);
 }
 
 .btnWrapper {
@@ -21,19 +19,49 @@
     left: calc(5% - 8px);
 }
 
-/* .endCursor:after {
-    content: '|';
-    color: var(--app-white-700);
+.featureWrapper {
+    color: #333;
+    font-family: Rubik, sans-serif;
 }
 
-.endCursor.blinking:after {
-    content: "|";
-    color: var(--app-white-700);
-    animation: blink 1s step-start infinite;
+.highlighted{
+    position: relative;
+    background: 0 0;
+    z-index: 0;
 }
 
-@keyframes blink {
-    50% {
-        opacity: 0;
-    }
-} */
+.highlighted::before {
+    content: '';
+    background: #ead9b3;
+    position: absolute;
+    left: 0;
+    right: -2px;
+    bottom: 2px;
+    height: 16px;
+    z-index: -1;
+}
+
+.serviceList {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageRotator {
+    max-width: 100%;
+    height: auto;
+}
+
+.customerWrapper {
+    margin: 10rem auto;
+}
+
+.customerCard{
+    height: 500px;
+    width: 60%;
+    border: 1px solid inherit;
+    border-radius: 5px;
+    padding: 4rem 1rem;
+    text-align: center;
+}
