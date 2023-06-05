@@ -1,22 +1,22 @@
-import { AiOutlineMail } from "react-icons/ai";
+import { GrMail } from "react-icons/gr";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import styles from "../../styles/button.module.css";
 import { motion } from "framer-motion";
 
 type Props = {
   content: string;
-  icon: Boolean;
-  arrowIcon: Boolean;
+  mailIcon?: Boolean;
+  arrowIcon?: Boolean;
   animateOnLoad?: Boolean;
 };
 
-export const Button = ({ content, icon, arrowIcon, animateOnLoad }: Props) => {
+export const Button = ({ content, mailIcon, arrowIcon, animateOnLoad }: Props) => {
   const button = (
       <>
         <span className="text-xl">{content}</span>
-        {icon && (
+        {mailIcon && (
           <span className="text-xl">
-            <AiOutlineMail />
+            <GrMail />
           </span>
         )}
         {arrowIcon && (

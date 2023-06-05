@@ -1,26 +1,27 @@
 import { useTypedAnimator, TypePhase } from "@/Hooks/useTypedAnimator"
 
 type Props = {
-    wordArray: string[]
+    wordArray: string[],
+    hideRest?: Boolean
 }
-export const TypedAnimator = ({ wordArray }: Props) => {
+export const TypedAnimator = ({ wordArray, hideRest }: Props) => {
 
     const { typedWord, phase, resume, selectedWord } = useTypedAnimator(wordArray);
 
     return (
-        <div onClick={resume} className="h-auto rounded-lg w-full lg:w-[600px] md:mx-auto animator_bar">
-            <h1 className='text-app-primary-black text-left'
+        <div onClick={resume} className="h-auto rounded-lg w-full lg:w-[700px] md:mx-auto animator_bar">
+            <h1 className={`text-app-primary-black ${hideRest ? 'text-center' : 'text-left'}`}
                 aria-label={selectedWord}
             >
-                <div className="text-4xl sm:text-6xl">The Ultimate</div> 
+                {!hideRest && <div className="text-4xl sm:text-6xl">We will help you in</div> }
                 
                 <div className="my-2">
                     <b className="end-cursor blinking text-4xl sm:text-6xl">{typedWord}</b>
                 </div>
                  
-                <div className="text-4xl sm:text-6xl">Provider</div>
+                {/* <div className="text-4xl sm:text-6xl">Provider</div> */}
             </h1>
-            <p className="mt-10 text-[#575757] leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            {!hideRest && <p className="mt-10 text-[#575757] leading-8"><b>Maximize Wealth, Minimize Taxes</b>, Tailored strategies for financial success. Take control of your future with personalized tax planning and proactive financial management. </p> }
         </div>
     )
 }

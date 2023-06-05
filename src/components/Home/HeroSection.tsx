@@ -14,7 +14,7 @@ export default function HeroSection() {
         <div className="flex flex-col justify-between items-center lg:flex-row px-5 py-4 sm:px-10 mt-16 md:mt-20">
           <div className="left__hero py-4">
             <TypedAnimator wordArray={typedContent} />
-            <Button animateOnLoad content="Know More" icon={true} arrowIcon={false} />
+            <Button animateOnLoad content="Know More" mailIcon={true} arrowIcon={false} />
           </div>
 
           <motion.div 
