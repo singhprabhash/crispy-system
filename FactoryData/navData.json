@@ -1,16 +1,5 @@
 [
     {
-        "id": 1,
-        "title": "Home",
-        "path": "/"
-    },
-    {
-        "id": 4,
-        "title": "Services",
-        "path": "/services",
-        "children": [{}]
-    },
-    {
         "id": 2,
         "title": "About",
         "path": "/about"

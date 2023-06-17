@@ -1,5 +1,6 @@
 import './globals.css'
 import { Open_Sans } from 'next/font/google'
+import { BsFillTelephoneInboundFill } from 'react-icons/bs';
 
 const rubik = Open_Sans({ 
   subsets: ['latin'],
@@ -20,6 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en antialiased">
       <body className={rubik.className}>
+        <div className='floating__btn text-xl'>
+          <BsFillTelephoneInboundFill />
+        </div>
         {children}
       </body>
     </html>

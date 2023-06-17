@@ -41,7 +41,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div
-        className={`${styles.customerWrapper} grid gap-4 justify-center grid-cols-2 px-10`}
+        className={`customer__wrapper grid gap-4 justify-center grid-cols-2 xs:grid-cols-1 px-10`}
       >
         {
           serviceGroups.map((data, idx) => (

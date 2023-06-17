@@ -2,15 +2,9 @@ import { GrMail } from "react-icons/gr";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import styles from "../../styles/button.module.css";
 import { motion } from "framer-motion";
+import { ButtonProps } from "../../types";
 
-type Props = {
-  content: string;
-  mailIcon?: Boolean;
-  arrowIcon?: Boolean;
-  animateOnLoad?: Boolean;
-};
-
-export const Button = ({ content, mailIcon, arrowIcon, animateOnLoad }: Props) => {
+export const Button = ({ content, mailIcon, arrowIcon, animateOnLoad }: ButtonProps) => {
   const button = (
       <>
         <span className="text-xl">{content}</span>

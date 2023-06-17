@@ -13,7 +13,7 @@ export const Services = () => {
                 highlightedText="Services"
                 remainingText=" We Offer"
             />
-            <div className="service_list grid gap-3 sm:grid-cols-3 justify-center mt-10">
+            <div className="service__list grid justify-center mt-10">
                 {
                     ourServices.map((service, idx) => (
                         <Card
