@@ -1,7 +1,7 @@
 import { Header } from "@/src/UI/Header/Header";
 import styles from "../Cards/styles.module.css";
 import { Card } from "../Cards/Card";
-import { Button } from "../Button";
+import { Button } from "../Button/Button";
 import ourServices from "../../../FactoryData/ourServices.json";
 
 export const Services = () => {

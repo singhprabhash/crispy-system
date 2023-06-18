@@ -1,7 +1,7 @@
 import styles from "../../../styles/home.module.css";
 import { TypedAnimator } from "../../UI/TypedAnimator";
 import { typedContent } from "../../../FactoryData/TypedContent";
-import { Button } from "../Button";
+import { Button } from "../Button/Button";
 import Image from "next/image";
 import { Customers } from "./Customers";
 import { motion } from "framer-motion";

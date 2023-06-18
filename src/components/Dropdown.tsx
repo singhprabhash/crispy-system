@@ -1,15 +1,13 @@
 import React from 'react'
-import { DropdownTypes } from '@/types'
+import { DropdownTypes, SubmenuType } from '@/types'
 import Link from 'next/link'
 
-const Dropdown = ({ menuItems, hideSubMenu }: DropdownTypes) => {
+const Dropdown = ({ menuItems }: DropdownTypes) => {
   return (
     <ul
       className={`nav__dropdown flex items-center absolute shadow-lg`}
-      onMouseLeave={hideSubMenu}
-
     >
-      {menuItems.map(({ id, path, title }) => (
+      {menuItems.map(({ id, path, title }: SubmenuType) => (
         <li
           className="flex items-center"
           key={id}

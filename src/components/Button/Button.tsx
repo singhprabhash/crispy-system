@@ -1,8 +1,8 @@
 import { GrMail } from "react-icons/gr";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
-import styles from "../../styles/button.module.css";
+import styles from "../../../styles/button.module.css";
 import { motion } from "framer-motion";
-import { ButtonProps } from "../../types";
+import { ButtonProps } from "../../../types";
 
 export const Button = ({ content, mailIcon, arrowIcon, animateOnLoad }: ButtonProps) => {
   const button = (

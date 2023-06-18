@@ -224,13 +224,13 @@ body {
 }
 
 .floating__btn {
-    @apply shadow-lg;
+    @apply shadow-2xl;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 60px;
     height: 60px;
-    background: var(--app-black-600);
+    background: var(--app-black);
     position: absolute;
     border-radius: 50%;
     bottom: 2rem;
@@ -242,7 +242,7 @@ body {
 }
 
 .nav__dropdown {
-    bottom: -7.7rem;
+    top: 64px;
     list-style: none;
     background-color: #fff;
     display: grid;
@@ -257,7 +257,17 @@ body {
     color: var(--app-primary-black);
 }
 
-@screen md {
+.backdrop {
+    position: fixed;
+    top: 70px;
+    z-index: 90;
+    width: 100%;
+    height: 100%;
+    background: #0000005c;
+}
+
+
+@screen lg {
     .floating__btn {
         width: 150px;
         height: 50px;

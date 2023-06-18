@@ -30,7 +30,9 @@ module.exports = {
       },
       screens: {
         'ultra-xs': {'max': '374px'},
-        'xs': {'min': '375px', 'max': '639px'}
+        'xs': {'min': '375px', 'max': '639px'},
+
+        '-lg': {'max': '1023px'},
       }
     },
   },

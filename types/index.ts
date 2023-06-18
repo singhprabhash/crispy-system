@@ -1,4 +1,4 @@
-import { MouseEvent, MouseEventHandler } from 'react';
+import { MouseEvent, MouseEventHandler } from "react";
 
 export interface ButtonProps {
     content: string;
@@ -7,20 +7,20 @@ export interface ButtonProps {
     animateOnLoad?: Boolean;
 }
 
-export interface childrenProps {
-    id: number,
-    path: string,
-    title: string,
+export interface SubmenuType {
+    id: number;
+    title: string;
+    path: string;
 }
 
 export interface navListTypes {
-    id: number,
-    path: string,
-    title: string,
-    children: childrenProps[]
+    id: number;
+    title: string;
+    path: string;
+    submenu?: SubmenuType[];
 }
 
-export interface  DropdownTypes {
-    menuItems: childrenProps[],
-    hideSubMenu: MouseEventHandler<HTMLUListElement>
+
+export interface DropdownTypes {
+    menuItems: SubmenuType[];
 }

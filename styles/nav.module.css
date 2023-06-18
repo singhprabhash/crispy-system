@@ -39,11 +39,15 @@
 }
 
 .logo {
-    padding: 2rem;
+    flex: 0.2;
 }
 
-.logo > img {
-    /* width: 100%; */
+.mobileNav {
+    position: absolute;
+    top: 6px;
+    height: 100vh;
+    background: var(--app-white);
+    z-index: 100;
 }
 
 @keyframes expand {
