@@ -29,7 +29,7 @@ export default function Navbar() {
             >
 
                 <div className={styles.logo}>
-                    <Image src="/logo.svg" width={50} height={50} alt="logo" />
+                    <Image src="/logo3.svg" width={60} height={60} alt="logo" />
                 </div>
 
                 <ul className={`${styles.nav} ultra-xs:hidden xs:hidden sm:hidden md:hidden lg:flex flex-1`}>
