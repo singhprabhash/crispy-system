@@ -12,7 +12,7 @@ const Dropdown = ({ menuItems }: DropdownTypes) => {
           className="flex items-center"
           key={id}
         >
-          <Link href={path}>{title}</Link>
+          <Link href={path} className='hover:underline hover:underline-offset-8'>{title}</Link>
         </li>
       ))}
     </ul>

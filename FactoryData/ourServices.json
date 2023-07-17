@@ -1,38 +1,32 @@
 [
     {
-        "title": "Financial Planning",
+        "title": "Compliance",
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "6.jpg",
         "altText": "Financial Planning"
     },
     {
-        "title": "Financial Planning",
+        "title": "Trademark Registration",
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "4.jpg",
         "altText": "Financial Planning"
     },
     {
-        "title": "Financial Planning",
+        "title": "GST",
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "3.jpg",
         "altText": "Financial Planning"
     },
     {
-        "title": "Financial Planning",
+        "title": "Income Tax Return Filing",
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "4.jpg",
         "altText": "Financial Planning"
     },
     {
-        "title": "Financial Planning",
+        "title": "Startup",
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "1.jpg",
-        "altText": "Financial Planning"
-    },
-    {
-        "title": "Financial Planning",
-        "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
-        "image": "6.jpg",
         "altText": "Financial Planning"
     }
 ]

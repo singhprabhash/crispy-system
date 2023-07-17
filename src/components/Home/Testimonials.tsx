@@ -6,7 +6,7 @@ import { FlashCards } from "../Cards/FlashCards";
 
 export const Testimonials = () => {
     return (
-        <div className={`${styles.featureWrapper} snap-start h-screen p-8 lg:p-16 mt-10`}>
+        <div className={`${styles.featureWrapper} snap-start px-8 lg:p-16 mt-10`}>
             <Header
                 highlightedHeader
                 heading=""
