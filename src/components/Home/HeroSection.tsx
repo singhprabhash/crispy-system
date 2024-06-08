@@ -40,7 +40,7 @@ export default function HeroSection() {
           </motion.div>
         </div>
       </div>
-      <div
+      {/* <div
         className={`customer__wrapper grid gap-4 justify-center grid-cols-2 xs:grid-cols-1 px-10`}
       >
         {
@@ -48,7 +48,7 @@ export default function HeroSection() {
             <Customers key={idx} bgColor={data.bgColor} title={data.title} forText={data.for} />
           ))
         }
-      </div>
+      </div> */}
     </>
   );
 }
