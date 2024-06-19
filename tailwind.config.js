@@ -18,6 +18,7 @@ module.exports = {
       "app-black": "#000",
       "app-white": "#fff",
       "app-gold": "#c99c3b",
+      "text-zinc-500": "#71717A",
       "muted": "#999",
       primary: {},
       secondary: {},

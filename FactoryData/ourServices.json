@@ -1,32 +1,93 @@
 [
     {
         "title": "Compliance",
+        "id": 1,
+        "width": 150,
+        "height": 150,
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "6.jpg",
         "altText": "Financial Planning"
     },
     {
         "title": "Trademark Registration",
+        "id": 2,
+        "width": 150,
+        "height": 150,
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "4.jpg",
         "altText": "Financial Planning"
     },
     {
         "title": "GST",
+        "id": 3,
+        "width": 150,
+        "height": 150,
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "3.jpg",
         "altText": "Financial Planning"
     },
     {
         "title": "Income Tax Return Filing",
+        "id": 4,
+        "width": 150,
+        "height": 150,
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "4.jpg",
         "altText": "Financial Planning"
     },
     {
         "title": "Startup",
+        "id": 5,
+        "width": 150,
+        "height": 150,
+        "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
+        "image": "1.jpg",
+        "altText": "Financial Planning"
+    },
+    {
+        "title": "Compliance",
+        "id": 6,
+        "width": 150,
+        "height": 150,
+        "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
+        "image": "6.jpg",
+        "altText": "Financial Planning"
+    },
+    {
+        "title": "Trademark Registration",
+        "id": 7,
+        "width": 150,
+        "height": 150,
+        "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
+        "image": "4.jpg",
+        "altText": "Financial Planning"
+    },
+    {
+        "title": "GST",
+        "id": 8,
+        "width": 150,
+        "height": 150,
+        "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
+        "image": "3.jpg",
+        "altText": "Financial Planning"
+    },
+    {
+        "title": "Income Tax Return Filing",
+        "id": 9,
+        "width": 150,
+        "height": 150,
+        "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
+        "image": "4.jpg",
+        "altText": "Financial Planning"
+    },
+    {
+        "title": "Startup",
+        "id": 10,
+        "width": 150,
+        "height": 150,
         "desc": "Strategic Financial Planning for a Lifetime of Prosperity.",
         "image": "1.jpg",
         "altText": "Financial Planning"
     }
+
 ]

@@ -12,10 +12,9 @@ type Props = {
 
 export const Card = (props: Props) => {
     return(
-        <div className={`${styles.infoCard}`}>
-            <Image src={props.img} alt={props.alt} width={250} height={250}/>
-            <h2 className='text-xl font-medium mt-5'>{props.title}</h2>
-            <p className=' text-[#575757]'>{props.desc}</p>
+        <div className={`${styles.infoCard} flex flex-col`}>
+            <Image src={props.img} alt={props.alt} width={200} height={200}/>
+            <h2 className='text-md font-medium mt-5 text-[#71717A] text-center'>{props.title}</h2>
         </div>
     );
 }

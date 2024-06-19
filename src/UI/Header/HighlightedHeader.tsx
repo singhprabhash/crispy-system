@@ -1,10 +1,10 @@
 import styles from "../../../styles/home.module.css";
 
 type Props = {
-    heading: string
+    heading?: string
     highlightedHeader?: Boolean,
-    highlightedText: string,
-    remainingText: string
+    highlightedText?: string,
+    remainingText?: string
 }
 
 export const HighlightedHeader = ({

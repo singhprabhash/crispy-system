@@ -11,13 +11,10 @@
 .cardContent {}
 
 .infoCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    height: 450px;
-    box-sizing: border-box;
+    border: 1px solid #00800057;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 2rem 2rem 2rem 0;
 }
 .infoCard p {
     width: 80%;
@@ -25,75 +22,15 @@
     text-align: center;
 }
 
+
+
 .serviceImg {
     box-shadow: 4px 6px 0px 0px rgba(0, 0, 0, 1);
     border-radius: 5px;
     
 }
 
-/* 
-.infoCard {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 300px;
-    height: 300px;
-    padding: 20px 25px;
-    box-sizing: border-box;
-    margin: 30px;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+.infoCard img {
+    mix-blend-mode: darken;
+    max-width: unset!important;
 }
-
-.infoCard h1 {
-    color: #576957;
-    letter-spacing: 1px;
-    font-size: 1.5rem;
-    margin-bottom: 8px;
-}
-
-.infoCard p {
-    color: rgba(87, 105, 117, 0.9);
-    text-align: center;
-}
-
-.infoCard button {
-    width: 140px;
-    height: 40px;
-    border-radius: 20px;
-    border: 1px solid rgba(74, 144, 226, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #576975;
-}
-
-.infoCard:hover {
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.08);
-    transition: all ease 0.3s;
-}
-
-.infoCard button:hover{
-    background-color: #4a90e2;
-    border: 1px solid #4a90e2;
-    color: #fff;
-    transition: all ease 0.3s;
-}
-
-.bar {
-    width: 100px;
-    height: 6px;
-    position: absolute;
-    left: 50%;
-    top: 0px;
-    transform: translateX(-50%);
-    background-color: #4a90e2;
-    border-radius: 0px 0px 10px 10px;
-    display: none;
-}
-
-.infoCard:hover .bar {
-    display: block;
-} */
