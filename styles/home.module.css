@@ -28,11 +28,11 @@
     position: relative;
     background: 0 0;
     z-index: 0;
+    color: #000;
 }
 
 .highlighted::before {
     content: '';
-    background: #ead9b3;
     position: absolute;
     left: 0;
     right: -2px;

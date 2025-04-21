@@ -17,7 +17,7 @@ export const Services = () => {
                 </div>
                 <br />
                 <div className="subtitle text-2xl">
-                    <SubHeader content="Explore our digital services stack"/>
+                    <SubHeader content="Explore our digital services stack" />
                 </div>
                 <div className="service__list flex justify-start mt-4 overflow-x-scroll">
                     {
@@ -31,14 +31,15 @@ export const Services = () => {
                         ))
                     }
                 </div>
+                <div className="flex justify-center">
+                    <Button
+                        content="Discover More"
+                        mailIcon={false}
+                        arrowIcon={true}
+                    />
+                </div>
             </div>
-            <div className="flex justify-center">
-                <Button
-                    content="Discover More"
-                    mailIcon={false}
-                    arrowIcon={true}
-                />
-            </div>
+
         </div>
     )
 }

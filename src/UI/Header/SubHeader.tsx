@@ -6,7 +6,7 @@ type Props = {
 
 export const SubHeader = ({ content }: Props) => {
     return (
-        <p className={`text-2xl font-medium text-muted w-fit ${styles.subHeader}`}>
+        <p className={`text-sm font-extrabold text-app-black-200 my-5 ${styles.subHeader}`}>
             {content}
         </p>
     )
