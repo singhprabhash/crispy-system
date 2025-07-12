@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en antialiased">
       <body className={rubik.className}>
-        <FloatingButton />
+        {/* <FloatingButton /> */}
         {children}
       </body>
     </html>
