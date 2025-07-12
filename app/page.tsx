@@ -57,7 +57,7 @@ export default function Home() {
                 </h2>
                 <p className="text-gray-600 max-w-2xl mx-auto text-sm sm:text-base">
                     Get professional assistance with Income Tax Filing, GST Registration, Trademark Applications,
-                    Business Incorporation, and more. We're here to help individuals and businesses stay compliant and grow.
+                    Business Incorporation, and more. We are here to help individuals and businesses stay compliant and grow.
                 </p>
 
                 <div className="mt-10 flex flex-col lg:flex-row gap-8 bg-app-white rounded-2xl shadow-lg p-6 sm:p-8">
