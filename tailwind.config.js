@@ -41,6 +41,11 @@ module.exports = {
       secondary: {},
     },
     extend: {
+      colors: {
+        primary: '#52b5af',
+        background: '#e8f7f7',
+        lightBackground: '#ecfafa',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
